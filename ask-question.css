@@ -1,0 +1,62 @@
+/* Ask Question Page Styles */
+
+/* Form Container */
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #2d3748;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Input */
+.title-input {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+/* Description Editor */
+.description-editor {
+    min-height: 300px;
+    margin-bottom: 1.5rem;
+}
+
+/* Tags Input */
+.tags-input {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+/* Submit Button */
+.submit-btn {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+/* Editor Toolbar */
+.ck-toolbar {
+    background-color: #374151;
+    border: none;
+}
+
+/* Editor Content Area */
+.ck-content {
+    background-color: #2d3748;
+    color: var(--text-color);
+    border: 1px solid #4b5563;
+    border-radius: 0.5rem;
+}
+
+/* Editor Placeholder */
+.ck-content::placeholder {
+    color: #9ca3af;
+}
+
+/* Editor Focus */
+.ck-content:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
